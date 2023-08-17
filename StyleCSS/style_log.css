@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+    background: rgb(41, 43, 36);
+    margin: 0;
+}
+#login{
+    width: 20%;
+    height: 45vh;
+    margin: 89px auto;
+    background:linear-gradient(cornflowerblue ,   rgb(49, 46, 46));
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px black;
+}
+@keyframes annimLog{
+    50%{
+        transform: translate(12px);
+        transform: scale(1.05);
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: translate(-12px);
+        transform: scale(1.05);
+        transform: rotate(-15deg);
+              
+    }
+}
+
+
+
+.champs{
+    width: 98%;
+    margin: 8px auto;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 25px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 2px white;
+}
+#lock{
+    margin-bottom: 10px;    
+}
+.lab_log{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#validation{
+    float: left;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgb(44, 168, 127);
+    border-radius: 5px;
+    border: none;
+    width: 95px;
+    padding: 5px 2px;
+}
+#validation :hover{
+    letter-spacing: 15px;
+}
+input::placeholder{
+    font-size: 10px;
+    color: turquoise;
+}
+
+#err{
+    width: 20%;
+    background: red;
+    padding: 5px 10px;
+    margin:  0 auto;
+    position: relative;
+   visibility: hidden;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: 3px dotted rgb(41, 43, 36);
+    box-sizing: border-box;
+}
+@keyframes annim{
+    50%{
+        transform: translate(12px);
+        transform: scale(1.05);
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: translate(-12px);
+        transform: scale(1.05);
+        transform: rotate(-15deg);
+              
+    }
+}

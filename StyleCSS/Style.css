@@ -1,0 +1,324 @@
+body{
+    width: 100%;
+    background: rgb(53, 50, 45);
+    margin: 0;
+}
+#block{
+    background:linear-gradient(cornflowerblue ,   rgb(49, 46, 46));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    padding: 12px 0;
+    background: chocolate;
+}
+
+
+#tete{
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px white;
+    padding: 20px;
+    margin-top: 23px;
+    border-radius: 10px;
+    position: relative;
+    /*background:linear-gradient(cornflowerblue ,   rgb(156, 147, 147) , cornflowerblue);*/
+    background: #516dcc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}#txtreche{
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}#reche{
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;    
+}
+#menu{
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}#menu1{
+    float: right;
+    position: absolute;
+    right:125px;
+    top: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}#menu2{
+    float: right;
+    position: absolute;
+    right: 175px;
+    top: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}#choixmenu{
+    padding: 20px;
+    width: 98px;
+    height: 225px;
+    box-shadow: 0 0 2px white;
+    position: fixed;
+    right: 18px;
+    margin-top: 27px;
+    display: none;
+    margin: 0;    
+    z-index: 500000000000000000000;
+    background: rgb(53, 50, 45);
+    cursor: pointer;
+}#choixmenu button{
+    padding: 7px;
+    background: white;
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+#quitter{
+    float: right;
+}
+h3{
+    text-align: center;
+    color: rgb(38, 141, 145);
+}
+
+
+
+#block{
+    width: 98%;
+    height: 445px;
+    box-shadow: 0 0 5px white;
+    margin: 12px auto;
+    position: relative;
+    background-attachment: fixed;
+}#blockMod{
+    width: 98%;
+    height: 445px;
+    margin: 12px auto;
+    position: relative;
+    background-attachment: fixed;
+}#blockAjout{
+    width: 98%;
+    height: 445px;
+    background: rgb(53, 50, 45);
+    position: fixed;
+    display: none;
+    z-index: 10;
+}#blockAjoutMod{
+    width: 98%;
+    height: 445px;
+    background: rgb(53, 50, 45);
+    position: fixed;
+}#champs1{
+    width: 50%;
+    left: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 445px;    
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    z-index: 5;
+    background: rgb(53, 50, 45);
+}#formulair1{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px white;
+    height: 425px;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 10px;
+}#formulair1 input[type="text"]{
+    width: 98%;
+    padding: 12px 0 12px 2%;
+    border: none;
+    outline: none;
+    margin: 7px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}#autre{
+    width: 95px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border: none;
+    background: white;
+    margin: 0;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}
+
+
+#champs2{
+    width: 50%;
+    left: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 445px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    z-index: 1;
+    background: rgb(53, 50, 45);
+}#formulair2{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px white;
+    height: 425px;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 10px;
+}#formulair2 input[type="text"]{
+    width: 98%;
+    padding: 12px 0 12px 2%;
+    border: none;
+    outline: none;
+    margin: 7px 0;
+    border-radius: 2px;
+}#formulair2 input[type="submit"]{
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 2px;   
+    cursor: pointer; 
+}#formulair2 input[type="reset"]{
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}#autre1{
+    width: 95px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    border-top-right-radius: 50%;
+    border: none;
+    background: white;
+    margin: 0;
+    border-bottom-left-radius: 12px;
+    cursor: pointer;
+}
+
+/*_ _ __ _ _ _ __ _ _ ___ __ _____ _ _ _ _ _ _ _ _ _ TABLEAU_ _ _ _ _ _ _ _ _ */
+table{
+    width: 100%;
+    font-size: 12px;
+}table td{
+    border-bottom: 1px solid rgb(67, 223, 158);
+    font-weight: bold;
+}
+table #champs{
+    width: 16%;
+    color: white;
+    box-sizing: border-box;
+}
+table #champsNom{
+    width: 19%;
+    color: white;
+    box-sizing: border-box;
+}
+table #champsNIV{
+    width: 5%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+table #champsMent{
+    width: 5%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+table #champsMat{
+    width: 8%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+table #champsMont{
+    width: 7%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+table #champsDate{
+    width: 8%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+table #champsAct{
+    width: 21%;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+#mod{
+    color: rgb(139, 231, 235);
+    text-decoration: none;
+}#suppr{
+    color: red;
+    text-decoration: none;
+}
+#teteTab{
+    color: rgb(38, 141, 145);
+}
+#Gest{
+    width: 65%;
+    color: lightblue;
+    box-shadow: 0 0 10px rgb(46, 36, 36);
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    padding: 10px;
+    border-radius: 25px;
+}
+#Gest h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 54px;
+}
+#Gest h2{
+    text-align: center;
+}
+
+
+/*_ _ __ _ _ _ __ _ _ ___ __ _____ _ _ _ _ _ _ _ _ _ TABLEAU_ _ _ _ _ _ _ _ _ */
+#LogoEmit img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 165px;
+    border-bottom-right-radius: 50%;
+}
+#LogoUniv img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 165px;
+    border-top-left-radius: 50%;
+}
